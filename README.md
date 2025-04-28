@@ -1,6 +1,6 @@
-# DDoS Koruma ve IP Yönetim Sistemi
+# PHP ile Mini DDoS Koruma ve IP Yönetim Projesi
 
-Bu proje, basit bir DDoS koruma sistemi ve IP yönetim paneli içerir. Proje, PHP kullanılarak geliştirilmiştir ve bir admin paneli aracılığıyla IP adreslerini yönetme imkanı sunar.
+Basit bir Ddos koruma sistemi içerir. Proje'de PHP kullanılarak geliştirilmiştir ve bir admin paneli aracılığıyla IP adreslerini yönetme imkanı sunar.
 
 ## Özellikler
 
@@ -31,20 +31,3 @@ Bu proje, basit bir DDoS koruma sistemi ve IP yönetim paneli içerir. Proje, PH
 
 ### Test
 - `test.php` dosyası, DDoS koruma sistemini test etmek için kullanılabilir. Belirtilen URL'ye belirli bir sayıda istek gönderir.
-
-## Güvenlik Notları
-
-- **Şifre Güvenliği**: Admin şifresini güçlü bir şifreyle değiştirin.
-- **Log Dosyaları**: `logs` klasörünün dışarıdan erişilemez olduğundan emin olun.
-- **Rate Limiting**: Daha gelişmiş bir rate limiting mekanizması eklenebilir.
-
-## Geliştirme
-
-Bu proje, junior seviyesinde bir geliştirici tarafından yazılmıştır ve geliştirmeye açıktır. Daha iyi performans ve güvenlik için aşağıdaki geliştirmeler yapılabilir:
-- Veritabanı entegrasyonu (JSON dosyaları yerine).
-- Daha gelişmiş bir kullanıcı arayüzü.
-- IP adresi doğrulama ve loglama mekanizmalarının iyileştirilmesi.
-
-## Lisans
-
-Bu proje açık kaynaklıdır ve herhangi bir lisans altında değildir. Dilediğiniz gibi kullanabilir ve geliştirebilirsiniz.
